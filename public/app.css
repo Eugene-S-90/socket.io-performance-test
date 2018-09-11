@@ -1,0 +1,31 @@
+
+.section-test {
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+}
+#obj-count,#obj-speed{
+    color: red;
+    font-size: 20px;
+}
+tr, td {
+    border: 1px solid black;
+}
+ td:first-child {
+ 
+   color: red;
+}
+td:nth-child(2) {
+ 
+    color: green;
+ }
+ td:nth-child(3) {
+ 
+    color: purple;
+ }
